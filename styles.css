@@ -1,0 +1,20 @@
+#barHolder {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+}
+#bar {
+  background-color: red;
+  width:5%;
+  height: 80px;
+}
+#by10 {
+  background-color: grey;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
