@@ -1,20 +1,8 @@
-#barHolder {
-  background-color: black;
-  width: 100%;
-  height: 80px;
-}
-#bar {
-  background-color: red;
-  width:5%;
-  height: 80px;
-}
-#by10 {
-  background-color: grey;
-  height: 40px;
-  width: 100px;
-  border-radius: 5px;
-  margin-top: 10px;
-  padding-top: 10px;
-  text-align: center;
-  cursor: pointer;
+#myBar {
+  width: 10%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
 }
