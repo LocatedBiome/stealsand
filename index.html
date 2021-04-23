@@ -7,7 +7,7 @@
 }
 
 #myBar {
-  width: 10%;
+  width: 1%;
   height: 30px;
   background-color: #4CAF50;
   text-align: center;
@@ -17,10 +17,10 @@
 </style>
 <body>
 
-<h1>Steak Sand</h1>
+<h1>Steal Sand</h1>
 
 <div id="myProgress">
-  <div id="myBar">10%</div>
+  <div id="myBar">1%</div>
 </div>
 
 <br>
@@ -32,8 +32,8 @@ function move() {
   if (i == 0) {
     i = 1;
     var elem = document.getElementById("myBar");
-    var width = 10;
-    var id = setInterval(frame, 10);
+    var width = 5;
+    var id = setInterval(frame, 5);
     function frame() {
       if (width >= 100) {
         clearInterval(id);
