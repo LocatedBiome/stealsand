@@ -5,7 +5,22 @@
     Steal Someone's Sand
   </title>
   </head>
-<style>
+  <body>
+
+<h2>Steal Who's sand?</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php" and there sand will be stolen.</p>
+
+</body>
+  <style>
 #myProgress {
   width: 100%;
   background-color: #ddd;
@@ -52,21 +67,6 @@ function move() {
   }
 }
 </script>
-
-</body>
-  <body>
-
-<h2>HTML Forms</h2>
-
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php" and there sand will be stolen.</p>
 
 </body>
 </html>
