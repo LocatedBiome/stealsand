@@ -5,21 +5,15 @@
     Steal Someone's Sand
   </title>
   </head>
-  <body>
+     <body>
+        <form action="/stealsand/action.php" method="post">
+          What is your name?<br>
+          <input type="text" name="field1"><br>
+            <input type="text" name="field2"><br>
+           <input type="submit" value="Submit">
+        </form>
+     </body>
 
-<h2>Steal Who's sand?</h2>
-
-<form action="/stealsand/action_page.php" method="get">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php" and there sand will be stolen.</p>
-
-</body>
   <style>
 #myProgress {
   width: 100%;
